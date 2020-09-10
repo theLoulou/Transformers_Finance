@@ -9,4 +9,5 @@ In short, it did not work. Although we were able to create a model able to compa
 
 You can find our code in the notebook as well as our report regarding this project. In the report, we explain our model architecture and the improvements that could be made. We also give insights on what is limiting our current model and how to eventually adress it. Note that this is not a peer reviewed article but a student project, the opinions we express are our own. Please refer to the sources in the report for more reliable peer reviewed information.  
 
-We use the historical data available on Yahoo Finance for 476 equities/ETF/spots and several PyTorch modules for the implementation. 
+The notebooks 'data_loader' and 'data_analyser' are used to generate the 3D data for our model. The notebook 'model' contains the model itself as well as the training procedure.
+We used the historical data available on Yahoo Finance for 476 equities/ETF/spots over 15 years and several PyTorch modules for the implementation. 
